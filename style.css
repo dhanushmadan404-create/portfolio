@@ -3,29 +3,31 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+  }
 
 /* Color Variables */
-:root {
-  --primary-blue: #4da3ff;
-  --light-blue: #eaf4ff;
-  --dark-blue: #1f3c88;
-  --text-dark: #333;
-  --text-light: #555;
-  --white: #ffffff;
-}
 
 /* Body */
 body {
   font-family: "Segoe UI", Arial, sans-serif;
-  background-color: var(--light-blue);
-  color: var(--text-dark);
+background: linear-gradient(
+  135deg,
+  #0B1020 0%,
+  #1B1F4A 50%,
+  #2A0F3F 100%
+);
+ color: #E6EDF3;
   line-height: 1.6;
 }
 
 /* Navigation */
 nav {
-  background-color: var(--white);
+  background-color: linear-gradient(
+  35deg,
+  #0B1020 20%,
+  #1B1F4A 80%,
+  #2A0F3F 0%
+);
   position: sticky;
   top: 0;
   z-index: 100;
