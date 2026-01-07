@@ -22,12 +22,8 @@ background: linear-gradient(
 
 /* Navigation */
 nav {
-  background-color: linear-gradient(
-  35deg,
-  #0B1020 20%,
-  #1B1F4A 80%,
-  #2A0F3F 0%
-);
+  background-color: rgb(91, 13, 216);
+ border: 2px solid white;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -55,10 +51,14 @@ nav a:hover {
 }
 
 /* Sections */
-section {
+section  {
   max-width: 900px;
+  background-color:  rgb(15, 2, 103);;
   margin: auto;
   padding: 4rem 1.5rem;
+  border-radius: 20px;
+  border: 2px solid white;
+  margin-bottom: 15px;
 }
 
 /* Headings */
@@ -70,9 +70,9 @@ h1 {
 h2 {
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: var(--dark-blue);
-  border-left: 5px solid var(--primary-blue);
+  border-left: 5px solid blue;
   padding-left: 0.8rem;
+
 }
 
 /* Home */
@@ -115,7 +115,7 @@ h2 {
 }
 
 .skill-card {
-  background-color: var(--white);
+  background-color: rgb(5, 26, 255);
   padding: 1.8rem;
   border-radius: 10px;
   text-align: center;
@@ -136,13 +136,13 @@ h2 {
 .project {
   display: block;
   text-decoration: none;
-  background-color: var(--white);
+  background-color:  rgb(5, 26, 255);
   padding: 1.8rem;
   margin-bottom: 1.5rem;
   border-radius: 10px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s, box-shadow 0.3s;
-  color: var(--text-dark);
+  color: rgb(54, 255, 14);
 }
 
 .project:hover {
@@ -152,7 +152,7 @@ h2 {
 
 .project-tech {
   font-size: 0.9rem;
-  color: var(--primary-blue);
+  color: white;
   font-style: italic;
 }
 
@@ -166,7 +166,7 @@ h2 {
 }
 
 .contact-info a {
-  color: var(--primary-blue);
+  color: white;
   text-decoration: none;
   font-weight: 600;
 }
