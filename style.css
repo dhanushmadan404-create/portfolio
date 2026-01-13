@@ -322,10 +322,18 @@ letter-spacing: 2px;
 
     transition: 0.5s ease;
 }
-.pro img{
+.pro p{
 opacity: 0;
  display: none;
-
+ width: 250px;
+text-align: center;
+    transition: 0.5s ease;
+}
+.pro img{
+    opacity: 0;
+ display: none;
+ width: 250px;
+text-align: center;
     transition: 0.5s ease;
 }
 .pro div{
@@ -342,7 +350,7 @@ opacity: 0;
 .pro:hover {
     transform: translateX(20px);
     max-height: none;
-     b,h2,img,div{
+     b,h2,p,div,img {
         opacity: 1;
  display: inline;
        transform: translateY(20px);
