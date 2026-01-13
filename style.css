@@ -201,26 +201,29 @@ letter-spacing: 2px;
 
 }
 .front img{
-    height: 150px;
+    height: 120px;
     width: 300px;
     position: relative;
-    left: 20px;
-    bottom: 60px;
+    /* margin-top: 20px; */
+
+    left: 80px;
+    bottom: 170px;
     object-fit: contain;
 
 }
 .back:nth-child(3) img{
-    top: 1mm;
- height: 120px;
+    margin-top: 30px;
+ height: 110px;
 }
 .back img{
-    height: 150px;
+    height: 120px;
     width: 300px;
     position: relative;
-    left: 20px;
-    bottom: 60px;
+    /* margin-top: 20px; */
+
+    left: 80px;
+    bottom: 190px;
     object-fit: contain;
-    z-index: 0;
 
 }
 .front aside{
