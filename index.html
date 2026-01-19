@@ -1,149 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dhanush</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dhanush Kumar | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <header >
-        <nav id="header">
-            <ul>
-                <li><a href="#introduction1">Introduction</a></li>
-                <li><a href="#knowledge1">Knowledge</a></li>
-                <li><a href="#project1">Project</a></li>
-                <li><a href="#contact1">Contact Us</a></li>
-            </ul>
-        </nav>
-        </header>
-    <main>
-        <!-- intro -->
-        <div id="intro">
-            <div class="content">
-                <h1>Hi! I'm a Web Development Student</h1>
-                <b></b>
-            </div>
-            <div class="img-container">
-                <h3>Dhanush Kumar</h3>
-                <img src="./assets/dhanush.png" alt="Dhanush" width="600px" height="600px" crossorigin="anonymous" loading="lazy">
-            </div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <h2 class="logo">Dhanush</h2>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Hi, I'm <span>Dhanush Kumar</span></h1>
+      <p>Web Development Student | Aspiring Game Developer</p>
+      <p class="small">
+        From Pallikaranai, Chennai <br>
+        12th Score: <strong>526 / 600</strong>
+      </p>
+    </div>
+
+    <div class="hero-img">
+      <img src="assets/dhanush.png" alt="Dhanush Kumar">
+    </div>
+  </section>
+
+  <!-- Skills -->
+ <!-- Skills Section -->
+<section id="skills" class="section">
+  <h2 class="section-title">Skills</h2>
+
+  <div class="skills-grid">
+    <div class="skill-card">
+      <img src="./assets/html copy.png" alt="HTML Logo" class="skill-icon">
+      <p>HTML</p>
+    </div>
+    <div class="skill-card">
+      <img src="./assets/css copy.png" alt="CSS Logo" class="skill-icon">
+      <p>CSS</p>
+    </div>
+    <div class="skill-card">
+      <img src="./assets/js copy.png" alt="JavaScript Logo" class="skill-icon">
+      <p>JavaScript</p>
+    </div>
+    <div class="skill-card">
+      <img src="./assets/python.png" alt="Python Logo" class="skill-icon">
+      <p>Python</p>
+    </div>
+    <div class="skill-card">
+      <img src="./assets/fastapi.png" alt="FastAPI Logo" class="skill-icon">
+      <p>FastAPI</p>
+    </div>
+    <div class="skill-card">
+      <img src="./assets/sql.png" alt="PostgreSQL Logo" class="skill-icon">
+      <p>PostgreSQL</p>
+    </div>
+  </div>
+</section>
+<section id="sub-know" class="section">
+  <h2 class="section-title" style="text-align: center; color: white; margin-bottom: 40px;">Knowledge & Skills</h2>
+
+  <div class="sub-grid">
+
+    <div class="sub-card">
+      <h2 class="sub-title">Problem Solving</h2>
+      <div class="card-grid">
+        <div class="pro-level">
+          <img src="./assets/download__27_-removebg-preview.png" alt="L1">
+          <h3>Level 1</h3>
+             <a href="https://github.com/dhanushmadan404-create/PS_level">GitHub</a>
         </div>
-        <br id="introduction1">
-          <!-- introduction -->
-         <div id="introduction">
-            <h1 class="title">Introduction</h1>
-            <div class="topself">
-            <div class="selfBox side"><h1>My 12th score</h1>
-            <h2>526/600</h2></div>
-            <div class="selfBox mySelf">My name is Dhanush Kumar, and I am from Pallikaranai, Chennai. I completed my 12th standard at MMDA Government Higher Secondary School</div>
-            <div class="selfBox side game"><h1>My Passion</h1>
-            <h2>Game developer</h2></div>
-            </div>
-            <div class="selfBox imgContainer">
-               <img src="./assets/self.png" alt="self image" >
-            </div>
-            <br id="knowledge1">
-
-         </div>
-         <!-- knowledge -->
-          <div id="knowledge">
-            <h1 class="title">Knowledge</h1>
-             <div class="frontend knowbox">
-                <div class="knowbox front" >
-                    <h1>HTML</h1>
-                    <div class="star-rating" data-rating=" 3.85"></div>
-                    <img src="./assets//html copy.png" alt="html" >
-                </div>
-                <div class="knowbox front">
-                     <h1>CSS</h1>
-                     <div class="star-rating" data-rating="3.5"></div>
-                    <img src="./assets/css copy.png" alt="CSS" >
-                </div>
-                <div class="knowbox front">
-                      <h1>JavaScript</h1>
-                      <div class="star-rating" data-rating="2.5"></div>
-                    <img src="./assets/js copy.png" alt="JavaScript" >
-                </div>
-             </div>
-            
-                <img class="center knowbox" src="assets/know.png" alt="brain">
-             <div class="backend knowbox">
-                <div class="knowbox back">
-                     <h1>PYTHON</h1>
-                     <div class="star-rating" data-rating="4.0"></div>
-                    <img src="assets/python.png" alt="PYTHON" >
-                </div>
-                <div class="knowbox back">
-                     <h1>FastAPI</h1>
-                     <div class="star-rating" data-rating="3.25"></div>
-                    <img src="assets/fastapi.png" alt="FastAPI" >
-                </div>
-                <div class="knowbox back">
-                     <h1>POSTGRESSQL</h1>
-                     <div class="star-rating" data-rating="3.50"></div>
-                    <img src="assets/sql.png" alt="POSTGRESSQL" >
-                </div>
-                
-             </div>
-            
-            
-
-
-          </div>
-         
-           <div id="sub-know">
-             <div class="problem">
-
-                <div id="head" ><h1>Problem Solving</h1></div>
-                <div class="pro level"><img src="./assets/download__27_-removebg-preview.png" alt="completed" loading="lazy"  srcset="./assets/download__27_-removebg-preview.png 480w, ./assets/download__27_-removebg-preview.png 768w, ./assets/download__27_-removebg-preview.png 1200w"  sizes="(max-width: 600px) 90vw, 50vw"><h2>Level 1 </h2></div>
-                <div class="pro level"><b>Git Hub <a href="https://github.com/dhanushmadan404-create/PS_level">link</a> for Proof</b><img src="./assets/download__27_-removebg-preview.png" alt="completed" loading="lazy"  srcset="./assets/download__27_-removebg-preview.png 480w, ./assets/download__27_-removebg-preview.png 768w, ./assets/download__27_-removebg-preview.png 1200w"  sizes="(max-width: 600px) 90vw, 50vw"><h2>Level 2</h2></div>
-                <div class="pro level"><b>Git Hub <a href="https://github.com/dhanushmadan404-create/PS_level">link</a> for Proof</b><img src="./assets/download__27_-removebg-preview.png" alt="completed" loading="lazy" srcset="./assets/download__27_-removebg-preview.png 480w, ./assets/download__27_-removebg-preview.png 768w, ./assets/download__27_-removebg-preview.png 1200w"  sizes="(max-width: 600px) 90vw, 50vw"><h2>Level 3</h2></div>
-                <div class="pro level"><b>Git Hub <a href="https://github.com/dhanushmadan404-create/PS_level">link</a> for Proof</b><img src="./assets/download__27_-removebg-preview.png" alt="completed" loading="lazy" srcset="./assets/download__27_-removebg-preview.png 480w, ./assets/download__27_-removebg-preview.png 768w, ./assets/download__27_-removebg-preview.png 1200w"  sizes="(max-width: 600px) 90vw, 50vw"><h2>Level 4</h2></div>
-                <div class="pro level"><b>Git Hub <a href="https://github.com/dhanushmadan404-create/PS_level">link</a> for Proof</b> <div class="loader"></div><h2>Level 5</h2></div>
-            </div>
-            <div class="english">
-                <div id="head" ><h1>English</h1></div>
-
-                <div class="pro type"><b>Image <a href="./assets/EF SET Certificate (1).pdf">link</a> for Proof</b><div class="star-rating" data-rating="2.4"></div>
-<h2>Reading</h2></div>
-                <div class="pro type"><b>Image <a href="./assets/EF SET Certificate (1).pdf">link</a> for Proof</b><div class="star-rating" data-rating="2.3"></div><h2>Listening</h2></div>
-                <div class="pro type"><b>Image <a href="./assets/EF SET Certificate (1).pdf">link</a> for Proof</b><div class="star-rating" data-rating="1.9"></div><h2>Writing</h2></div>
-                <div class="pro type"><b>Image <a href="./assets/EF SET Certificate (1).pdf">link</a> for Proof</b><div class="star-rating" data-rating="2.3"></div><h2>Speaking</h2></div>
-            </div>
-            <div class="lifeskill">
-                <div id="head" ><h1>Life Skill</h1></div>
-
-                <div class="pro skill"><p>In the Product Building Challenge, we created a massage belt. Through this experience, I learnt how to sell a product and what key points should be included when presenting a product to customers.</p><h2>Product Building Challenge</h2></div>
-                <div class="pro skill"><p>In the workflow study, we created a drama to explain each role. Through this experience, I learned how each role functions, how team members communicate, and how roles are organized in a hierarchy.</p><h2>Work Place Study</h2></div>
-                <div class="pro skill"><img src="./assets/story.png" alt="completed" loading="lazy" srcset="./assets/story.png 480w, ./assets/story.png 768w, ./assets/story.png 1200w"  sizes="(max-width: 600px) 90vw, 50vw" ><h2>Story Telling</h2></div>
-                <div class="pro skill"><b><a href="https://prezi.com/view/wxVApg97zN0TNMF35wlp/?referral_token=LcsPTolnB3FN">My Slide</a></b><img src="./assets/bingo.png" alt="completed" loading="lazy" srcset="./assets/bingo.png 480w, ./assets/bingo.png 768w, ./assets/bingo.png 1200w"  sizes="(max-width: 600px) 90vw, 50vw"><h2>Brand Analysis</h2></div>
-            </div>
+        <div class="pro-level">
+          <img src="./assets/download__27_-removebg-preview.png" alt="L2">
+          <h3>Level 2</h3>
+          <a href="https://github.com/dhanushmadan404-create/PS_level">GitHub</a>
         </div>
-        <br id="project1">
-             <div id="project">
-                
-             <div class="projectbox top"><h2>Annesana</h2><b>Click here</b><img  class="logo" src="./assets/logo.png" alt="completed" loading="lazy" srcset="./assets/logo.png 480w, ./assets/logo.png 768w,./assets/logo.png 1200w"  sizes="(max-width: 600px) 90vw, 50vw" width="500px" onclick="location.href='https://dhanushmadan404-create.github.io/Annesana_1/'"></div>
-             <div class="prob middle">
-             <div class="projectbox"><h2>Static E-Commerce</h2><b>Click here</b><img  class="logo" src="./assets/logo copy.png" alt="completed" loading="lazy" srcset="./assets/logo copy.png 480w, ./assets/logo copy.png 768w, ./assets/logo copy.png 1200w"  sizes="(max-width: 600px) 90vw, 50vw" width="500px" onclick="location.href='https://dhanushmadan404-create.github.io/static-website/'"></div>
-              <h1 class="title">Project</h1>
-             <div class="projectbox"><h2>DECIFHER</h2><b>Click here</b><img class="logo"  src="./assets/logo2.png" alt="completed" loading="lazy" srcset="./assets/logo2.png 480w, ./assets/logo2.png 768w, ./assets/logo2.png 1200w"  sizes="(max-width: 600px) 90vw, 50vw" width="500px" onclick="location.href='https://dhanushmadan404-create.github.io/connect_with_computer/'"></div>
-             </div>
-             <div class="projectbox bottom"><h2>TodoList</h2><b>Click here</b><img  class="logo" src="./assets/todolist.png" alt="completed" loading="lazy" srcset="./assets/todolist.png 480w, ./assets/todolist.png 768w, ./assets/todolist.png 1200w"  sizes="(max-width: 600px) 90vw, 50vw" width="500px" onclick="location.href=' https://dhanushmadan404-create.github.io/TodoLiat/'"></div>
-<br id="contact1">
-             </div>
-         
-    </main>
-    <footer>  <section id="contact">
-        <h2 class="Contact">Contact</h2>
-        <div class="contact-info">
-            <p class="letter">Feel free to reach out to me!</p>
-            <p class="letter"><strong>Email:  dhanushmadan404@gmail.com</strong></p>
-            <p class="letter"><strong>Number:  9080915996</strong> </p>
-              
-            <p class="letter"><strong>Location:</strong> Vallalar Street,Tamil Nadu, India</p>
+        <div class="pro-level">
+          <img src="./assets/download__27_-removebg-preview.png" alt="L3">
+          <h3>Level 3</h3>
+          <a href="https://github.com/dhanushmadan404-create/PS_level">GitHub</a>
         </div>
-    </section></footer>
-    <script src="./scripts.js"></script>
+        <div class="pro-level">
+          <img src="./assets/download__27_-removebg-preview.png" alt="L4">
+          <h3>Level 4</h3>
+          <a href="https://github.com/dhanushmadan404-create/PS_level">GitHub</a>
+        </div>
+        <div class="pro-level">
+          <div class="loader"></div>
+          <h3>Level 5</h3>
+          <a href="https://github.com/dhanushmadan404-create/PS_level">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub-card">
+      <h2 class="sub-title">English Proficiency</h2>
+      <div class="card-grid">
+        <div class="pro-type">
+       <div class="star-rating" data-rating="2.4"></div> <a href="./assets/EF SET Certificate (1).pdf">Proof</a>
+          <h3>Reading</h3>
+        </div>
+        <div class="pro-type">
+         <div class="star-rating" data-rating="2.3"></div> <a href="./assets/EF SET Certificate (1).pdf">Proof</a>
+          <h3>Listening</h3>
+        </div>
+        <div class="pro-type">
+         <div class="star-rating" data-rating="3.5"></div> <a href="./assets/EF SET Certificate (1).pdf">Proof</a>
+          <h3>Writing</h3>
+        </div>
+        <div class="pro-type">
+         <div class="star-rating" data-rating="3.5"></div>
+         <a href="./assets/EF SET Certificate (1).pdf">Proof</a>
+          <h3>Speaking</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub-card">
+      <h2 class="sub-title">Life Skills</h2>
+      <div class="card-grid">
+        <div class="pro-skill">
+          <img src="./assets/productbuild.jpeg" alt="Product" class="skill-icon">
+          <h3>Product Building</h3>
+          <p>Created a massage belt & learned sales tactics.</p>
+        </div>
+        <div class="pro-skill">
+          <img src="./assets/workplacestudy.jpeg" alt="Workplace" class="skill-icon">
+          <h3>Work Place Study</h3>
+          <p>Learned team hierarchy through drama.</p>
+        </div>
+        <div class="pro-skill">
+          <img src="./assets/story.png" alt="Storytelling" class="skill-icon">
+          <h3>Story Telling</h3>
+          <p>Visual narrative skills.</p>
+        </div>
+        <div class="pro-skill">
+          <img src="./assets/bingo.png" alt="Brand" class="skill-icon">
+          <h3>Brand Analysis</h3>
+          <a href="https://prezi.com/view/wxVApg97zN0TNMF35wlp/">View Slide</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="section gray">
+  <h2 class="section-title">Projects</h2>
+
+  <div class="projects-grid">
+    <div class="project-card">
+      <img src="./assets/logo.png" alt="Annesana Project" class="project-icon">
+      <h3>Annesana</h3>
+      <p>Web based food platform</p>
+      <a href="https://dhanushmadan404-create.github.io/Annesana_1/" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <img src="./assets/logo copy.png" alt="Static E-Commerce Project" class="project-icon">
+      <h3>Static E-Commerce</h3>
+      <p>HTML & CSS based store</p>
+      <a href="https://dhanushmadan404-create.github.io/static-website/" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <img src="./assets/todolist.png" alt="Todo List Project" class="project-icon">
+      <h3>Todo List</h3>
+      <p>Simple task manager</p>
+      <a href="https://dhanushmadan404-create.github.io/TodoLiat/" target="_blank">View Project</a>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="contact-box">
+      <p><strong>Email:</strong> dhanushmadan404@gmail.com</p>
+      <p><strong>Phone:</strong> 9080915996</p>
+      <p><strong>Location:</strong> Tamil Nadu, India</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Dhanush Kumar
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
