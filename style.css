@@ -370,7 +370,79 @@ body {
   line-height: 2;
   color: #e0e7ff;
 }
+ /* ---------- CONTACT ---------- */
+  .sectionEnd{
+      padding: 80px 50px;
+  margin: 60px auto;
+  max-width: 1200px;
+  background: linear-gradient(135deg, #0a0f1e, #111827);
+  border-radius: 28px;
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.55);
+  display: flex;
+  justify-content: space-around;
+}
+form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #111827;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
 
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #e5e7eb;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 18px;
+  border-radius: 8px;
+  border: 1px solid #374151;
+  background: #020617;
+  color: #f9fafb;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+input::placeholder {
+  color: #9ca3af;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #38bdf8;
+  box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.3);
+}
+
+textarea {
+  resize: none;
+  min-height: 120px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #38bdf8;
+  color: #020617;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: #0ea5e9;
+  transform: translateY(-2px);
+}
 /* ---------- FOOTER ---------- */
 footer {
   margin-top: 80px;
@@ -471,10 +543,5 @@ footer {
   .project-card {
     padding: 28px 18px;
   }
-
-  /* ---------- CONTACT ---------- */
-  .contact-box {
-    padding: 30px 20px;
-  }
-
+ 
 }
