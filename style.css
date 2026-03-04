@@ -262,6 +262,10 @@ body {
   width: 150px;
   height: 150px;
 }
+.pro-level img{
+  width: 80px;
+  height: 80px;
+}
 /* ---------- Star Rating ---------- */
 .star-rating {
   --rating: attr(data-rating number);
