@@ -9,6 +9,8 @@ body {
   background: linear-gradient(180deg, #111827, #020617);
   color: #e5e7eb;
   line-height: 1.6;
+  transition: 2s;
+  scroll-behavior: smooth;
 }
 
 /* ---------- NAVBAR ---------- */
